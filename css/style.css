@@ -1,0 +1,92 @@
+* {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* LOGO DISPLAY */
+.introduction {
+  border-right: 5px solid #28ABE3;
+}
+
+.brainscience {
+  text: #2F3491;
+ 
+}
+
+
+.blurb, .brainscience, .tagline {
+  margin-left: 10px;
+}
+  
+.bio {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.rowlogosize {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+.into, .blur{
+  margin-left 10px;
+  margin-right 10px;
+  margin-right 10px;
+}
+
+.brainscience {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right 10px;
+
+}
+
+p, .brainscience {
+  text-size: 20px;
+}
+
+.color {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bio {
+  border-bottom: 5px solid #2F3491;
+}
+
+.tagline {
+  font-size: 25px;
+  emphasis: em;
+  color:#2e3192;
+  font-weight: bold;
+  border-bottom : 8px solid #2F3491;
+  margin-right : 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+
+}
+
+.separatesection {
+  margin-right: 5px solid #2e3192;
+}
+
+.blue {
+  color:#2e3192;
+  font-size: 70px; 
+}
+.getintouch {
+  font-size: 25px;
+  color: #2e3192;
+  emphasis: em;
+}
+
+.socialmedia {
+  font-size: 20px; 
+}
