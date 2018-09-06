@@ -64,7 +64,7 @@ p, .brainscience {
 .tagline {
   font-size: 25px;
   emphasis: em;
-  color:#2e3192;
+  color:#28ABE3;
   font-weight: bold;
   border-bottom : 8px solid #2F3491;
   margin-right : 20px;
@@ -81,6 +81,14 @@ p, .brainscience {
   color:#2e3192;
   font-size: 70px; 
 }
+
+.brainblue {
+  color: #28ABE3;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0;
+}
+
 .getintouch {
   font-size: 25px;
   color: #2e3192;
