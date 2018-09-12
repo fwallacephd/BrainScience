@@ -130,7 +130,7 @@ p, .title {
 }
 
 .card-title {
-  color: #2e3192;
+  color: #28ABE3;
   font-size: 20px;
   font-weight: bold;
 }
@@ -143,4 +143,9 @@ p, .title {
 .btn-primary {
   color: white;
   background-color: #2e3192;
+}
+
+.btn-primary:hover {
+  background-color: #2e3192;
+  color: #ff580f;
 }
