@@ -17,10 +17,16 @@
 	margin-left: 25px;
 	margin-right: 25px;
 }
+
+.fa-mail-bulk {
+	color: #2F3491;
+}
 .rowlogosize {
 	margin-left: 10px;
 	margin-right: 10px;
 	padding-top: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 	padding-bottom: 0;
 }
 .into, .blur {
@@ -33,7 +39,8 @@
 	color: black;
 	font-weight: bold;
 	margin-left: 10px;
-	margin-right 10px;
+	margin-right: 10px;
+	padding-botton: 0px;
 }
 p, .brainscience {
 	text-size: 20px;
@@ -43,12 +50,24 @@ p, .title {
 	color: #2F3491;
 	font-size: 45px;
 }
+
+a, .mail {
+	padding-top: 0;
+	margin-top: 0;
+	color: #ff580f;
+	font-size: 25px;
+	font-weight: bold;
+}
 .color {
 	font-size: 40px;
 	font-weight: bold;
 }
 .bio {
 	border-bottom: 3px solid #2F3491;
+}
+
+.email {
+	color: #ff580f;
 }
 .tagline {
 	font-size: 25px;
