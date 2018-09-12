@@ -128,3 +128,19 @@ p, .title {
   margin: 5px;
   padding: 2px;
 }
+
+.card-title {
+  color: #2e3192;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: black;
+  font-size: 15px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #2e3192;
+}
