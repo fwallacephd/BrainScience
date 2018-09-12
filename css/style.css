@@ -7,8 +7,9 @@
 
 /* LOGO DISPLAY */
 
-.brainscience {
+.title {
   text: #2F3491;
+  size: 67px;
  
 }
 
@@ -47,6 +48,12 @@
 
 p, .brainscience {
   text-size: 20px;
+  color: #ff580f
+}
+
+p, .title {
+  color: #2F3491;
+  font-size: 45px;
 }
 
 .color {
@@ -61,13 +68,20 @@ p, .brainscience {
 .tagline {
   font-size: 25px;
   emphasis: em;
-  color:#28ABE3;
+  color: #ff580f;
   font-weight: bold;
   border-bottom : 8px solid #2F3491;
   margin-right : 20px;
   margin-left: 20px;
   padding-bottom: 10px;
 
+}
+
+.orangemodal {
+  color: #28ABE3;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0;
 }
 
 .separatesection {
@@ -79,12 +93,6 @@ p, .brainscience {
   font-size: 70px; 
 }
 
-.brainblue {
-  color: #28ABE3;
-  text-decoration: underline;
-  font-weight: bold;
-  padding: 0;
-}
 
 .getintouch {
   font-size: 25px;
@@ -94,4 +102,29 @@ p, .brainscience {
 
 .socialmedia {
   font-size: 20px; 
+}
+
+
+.modal-title {
+  color:  #ff580f;
+  font-size: 25px;
+  
+}
+
+.modal-body ,p {
+  color: #2e3192;
+  font-size: 20px;
+}
+
+.button-close {
+  color: #28ABE3;
+}
+
+.close {
+  color: #28ABE3;
+}
+
+.cards {
+  margin: 5px;
+  padding: 2px;
 }
