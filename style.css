@@ -135,3 +135,34 @@ a, .mail {
 	background-color: #2e3192;
 	color: #ff580f;
 }
+
+/*Learning Styles*/
+.styletype  {
+	color: #28ABE3;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.stylecharacteristics {
+	color: black;
+	font-size: 18px;
+
+}
+.styleresourcestitle {
+	color:  #2e3192;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.resourcelist {
+	color:black;
+	font-size: 15px; 
+	font-weight: 500;
+}
+
+.resourcelink {
+	color: #ff580f;
+	underline:  #ff580f;
+	font-size: 15px;
+}
