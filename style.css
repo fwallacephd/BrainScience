@@ -127,6 +127,11 @@ a, .mail {
 	color: black;
 	font-size: 15px;
 }
+
+.card-img-top {
+	width: 40%;
+}
+
 .btn-primary {
 	color: white;
 	background-color: #2e3192;
