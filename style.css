@@ -159,7 +159,6 @@ a, .mail {
 	font-weight: bold;
 }
 
-
 .resourcelist {
 	color:black;
 	font-size: 15px; 
@@ -170,4 +169,22 @@ a, .mail {
 	color: #ff580f;
 	underline:  #ff580f;
 	font-size: 15px;
+}
+
+.backbutton {
+	background-color: #2e3192;
+}
+
+.brainscience {
+	margin: 0px;
+}
+
+.hacks {
+	width: 30%;
+	font-size: 15px;
+}
+
+.goals {
+	font-size: 20px;
+	
 }
