@@ -6,6 +6,11 @@
 }
 /* LOGO DISPLAY */
 
+.orange {
+	color: #ff580f;
+	font-size: 40px; 
+}
+
 .title {
 	text: #2F3491;
 	size: 67px;
@@ -175,7 +180,7 @@ a, .mail {
 	background-color: #2e3192;
 }
 
-.brainscience {
+.brainHacks {
 	margin: 0px;
 }
 
