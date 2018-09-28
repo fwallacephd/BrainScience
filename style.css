@@ -193,3 +193,10 @@ a, .mail {
 	font-size: 20px;
 	
 }
+
+/*Brain Science*/
+.goalsDescription, .pickyDescription, .buildDescription, .involvedDescription, .studyDescription {
+	color: black;
+	font-size: 15px;
+
+}
