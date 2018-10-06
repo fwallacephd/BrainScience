@@ -121,11 +121,6 @@ a.mail {
     color: #28ABE3;
 }
 
-.cards {
-    margin: 5px;
-    padding: 2px;
-}
-
 .card-title {
     color: #28ABE3;
     font-size: 20px;
@@ -135,19 +130,23 @@ a.mail {
 .card-text {
     color: black;
     font-size: 15px;
+    text-align: justify;
 }
 
 .card-img-top {
-    width: 40%;
+    width: 100px;
+    height: 20%;
+    margin-top: 1.5rem;
 }
 
 .btn-primary {
     color: white;
     background-color: #2e3192;
+    transition: all .8s ease-out;
 }
 
 .btn-primary:hover {
-    background-color: #2e3192;
+    background-color: #3c40b1;
     color: #ff580f;
 }
 
@@ -169,6 +168,7 @@ a.mail {
     color: #2e3192;
     font-size: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .resourcelist {
@@ -185,6 +185,7 @@ a.mail {
 
 .backbutton {
     background-color: #2e3192;
+    margin-bottom: .7rem;
 }
 
 .brainHacks {
@@ -210,6 +211,7 @@ a.mail {
 .studyDescription {
     color: black;
     font-size: 15px;
+    text-align: justify;
 }
 
 
@@ -218,7 +220,7 @@ a.mail {
 
 /* replacements to br tags */
 
-section,
+section.introduction,
 section.cards {
     margin: 30px 0;
 }
@@ -250,6 +252,29 @@ a #more {
 
 .bio {
     margin-bottom: 1.5rem;
+}
+
+
+/* cards */
+
+.tile {
+    height: auto;
+    min-height: 22rem;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.backbutton i {
+    display: inline-block;
+    margin-right: 1rem;
 }
 
 
