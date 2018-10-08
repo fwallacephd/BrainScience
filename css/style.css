@@ -1,0 +1,294 @@
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* LOGO DISPLAY */
+
+.orange {
+    display: inline-block;
+    color: #ff580f;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.title {
+    color: #2F3491;
+    size: 67px;
+}
+
+.blurb,
+.brainscience,
+.tagline {
+    margin-left: 10px;
+}
+
+.bio {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fa-mail-bulk {
+    color: #2F3491;
+}
+
+.into,
+.blur {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.brainscience {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+p.title {
+    color: #2F3491;
+    font-size: 45px;
+}
+
+a.mail {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ff580f;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.color {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.email {
+    color: #ff580f;
+}
+
+.tagline {
+    font-size: 25px;
+    color: #ff580f;
+    border-top: 5px solid #2F3491;
+    border-bottom: 5px solid #2F3491;
+    padding: 20px 0;
+}
+
+.orangemodal {
+    color: #28ABE3;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 0;
+}
+
+.separatesection {
+    margin-right: 0px;
+}
+
+.blue {
+    color: #2e3192;
+    font-size: 70px;
+}
+
+.getintouch {
+    font-size: 25px;
+    color: #2e3192;
+}
+
+.socialmedia {
+    font-size: 20px;
+}
+
+.modal-title {
+    color: #ff580f;
+    font-size: 25px;
+}
+
+.modal-body p {
+    color: #2e3192;
+    font-size: 20px;
+}
+
+.button-close {
+    color: #28ABE3;
+}
+
+.close {
+    color: #28ABE3;
+}
+
+.card-title {
+    color: #28ABE3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 20%;
+    margin-top: 1.5rem;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2e3192;
+    transition: all .8s ease-out;
+}
+
+.btn-primary:hover {
+    background-color: #3c40b1;
+    color: #ff580f;
+}
+
+
+/*Learning Styles*/
+
+.styletype {
+    color: #28ABE3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stylecharacteristics {
+    color: black;
+    font-size: 18px;
+}
+
+.styleresourcestitle {
+    color: #2e3192;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resourcelist {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.resourcelink {
+    color: #ff580f;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.backbutton {
+    background-color: #2e3192;
+    margin-bottom: .7rem;
+}
+
+.brainHacks {
+    margin: 0px;
+}
+
+.hacks {
+    width: 30%;
+    font-size: 15px;
+}
+
+.goals {
+    font-size: 20px;
+}
+
+
+/*Brain Science*/
+
+.goalsDescription,
+.pickyDescription,
+.buildDescription,
+.involvedDescription,
+.studyDescription {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+/* styles that Kouceïla added */
+
+
+/* replacements to br tags */
+
+section.introduction,
+section.cards {
+    margin: 30px 0;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+
+/* for hear more on mail */
+
+a #more {
+    display: block;
+    margin-top: 6px;
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: 400;
+}
+
+#icon-mail {
+    display: block;
+}
+
+.img-logo {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.bio {
+    margin-bottom: 1.5rem;
+}
+
+
+/* cards */
+
+.tile {
+    height: auto;
+    min-height: 22rem;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.backbutton i {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+/* media query for small screens */
+
+@media screen and (max-width: 767px) {
+    .rowlogosize {
+        text-align: center !important;
+    }
+    .blurb {
+        margin-left: 0;
+    }
+    .orange {
+        text-align: left !important;
+        display: block;
+    }
+}

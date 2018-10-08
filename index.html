@@ -1,294 +1,435 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<!--META TAGS-->
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta content="Brain Sceince Hacks to help you learn programming" name="brain science">
-	
-	<title>Code Girl</title><!-- Bootstrap, Fonts, Font Awesome, CSS -->
-	
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	
-	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet"><!--Bootstrap-->
-	
-	<!-- Latest compiled and minified CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"><!-- jQuery library -->
+    <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="Brain Sceince Hacks to help you learn programming" name="brain science">
+    <meta name="author" content="Faith Wallace">
+    <title>Code Girl</title>
+    <!-- this is the favicon of github and you can create your own by "code girl png" vertically and convert it to ico from for instance "http://tools.dynamicdrive.com/favicon/" -->
+    <link rel="shortcut icon" href="https://github.com/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap, Fonts, Font Awesome, CSS -->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	</script><!-- Popper JS -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-	</script><!-- Latest compiled JavaScript -->
+    <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
+    <!--Bootstrap-->
 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-	</script><!--AnimateCSS-->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"><!--CSS-->
-	<link href="style.css" rel="stylesheet">
-	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet"><!--FONT Awesome-->
-	<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet"><!--Fonts-->
-	<!--Change fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery library -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <!-- Popper JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <!-- Latest compiled JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+    <!--AnimateCSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
+    <!--FONT Awesome-->
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+    <!--Fonts-->
+    <!--Change fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 </head>
+
 <body>
-  <!--Introduction to the website, logo, brain science-->
-	<section class="introduction">
-		<br>
-		<div class="row">
-			<div class="col-md-3 text-center">
-				<i class="fas fa-mail-bulk fa-5x text-left"></i><br>
-					<button type="button" class="btn btn-link">Want to hear more?<br><a class="mail" href="http://eepurl.com/dGXh3f" target="_blank">Sign Up for Updates</a> </button>	
-			</div>
-				<div class="col-md-8 rowlogosize text-right">
-					<img alt="Code Girl Logo" class="img fluid blurb" src="codegirllogo071217.png" width="400">
-					<p class="brainscience" text-right"><span class="orange">It's all about</span> <span class="blue">Brain Science!</span></p>																									
-				</div>
-				</div>
-				
-					<div class="row bio">
-					<div class="col-md-4"></div>
-					<div class="col-md-8">
-						<!--Bio-->
-						Dr. Faith H. Wallace is a former college-professor with expertise in educational psychology and language development turned Front-End Developer with an affinity for clean, classic design. Self-taught with the help of Toby Ho and FreeCodeCamp. Her expertise spans HTML5, CSS3, JavaScript jQuery, Python, Bootstrap, Firebase, React and complex problem solving with a keen attention to detail and more. Her passion is working with beginners stepping into the myriad programming resources using 
-						<button class="btn btn-link orangemodal" data-target="#brainblue" data-toggle="modal" type="button">brain science</button> tools to be successful no matter what language, framework, or library they choose to study.<br> <br>This website is a collection of resources, classes and conversations about best practices in learning code.<br>
-					<br>
-					</div><br>
-					<br>
-        </div>
-        <!--Modal for Brain Science-->
-				<div aria-hidden="true" aria-labelledby="Brain Science Definition" class="modal fade" id="brainblue" role="dialog" tabindex="-1">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="brainblue">What does Brain Science mean?</h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
-							</div>
-							<div class="modal-body">
-								<p>Brain Science is a fancy way for of discussing resesarch and philosophy in educational psychology.</p>
-							</div>
-							<div class="modal-footer">
-								<button class="btn button-close" data-dismiss="modal" type="button">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<p class="bio text-justify"></p>
-				<blockquote class="tagline text-center">
-          <!--Call to action. Make it more personal-->
-					<em>Why make your journey to become a programmer a struggle.<br>
-					Together, we can ease the burden of learning with research-based time-tested techniques from academic research on learning as applied to learning to code.<br></em>
-				</blockquote>
-			</div>
-		</div>
-	</section>
-	
-	<section class="continer-fluid cards">
-    <div class="allCards">
-		<div class="row">
-			<div class="col-md-3 h-50">
-				<div class="card1">
-					<img alt="Learning Styles" class="card-img-top text-center" src="ls icon.png">
-					<div class="card-body">
-						<h5 class="card-title">Learning Styles</h5>
-						<p class="card-text">Learning Styles are the brain’s preferred method of understanding and retaining new information. Everyone has a mix of different learning styles and this can vary based on the subject that you are studying. Learning styles grow and change as you become proficient.</p>
-						<button type="button" class="btn btn-primary cardStyles">Resources</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 h-50">
-				<div class="card2">
-					<img alt="Brain Science Hacks" class="card-img-top" src="2-01.png">
-					<div class="card-body">
-						<h5 class="card-title">Brain Science Hacks</h5>
-						<p class="card-text">Leveling up in programming can be downright infuriating, time consuming & expensive. Take the frustration out of the equation with these 5 basic brain science hacks that work for any topic you are tyring to learn.</p>
-						<button type="button" class="btn btn-primary cardHack">Learn More</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 h-50">
-				<div class="card">
-					<img alt="Learning Objectves" class="card-img-top" src="3-01.png">
-					<div class="card-body">
-						<h5 class="card-title">Hierarchy of Learning Objectives</h5>
-						<p class="card-text">To become a programmer, you need to have experiences that force you to move through a hierarchy of learning objectives. Doing so ensures that you can progress from simply recalling coding concepts to being able to develop your own original code. There are six objectives: Remember, Understand, Apply, Analyze, Evaluate, and Create.</p>
-						<button type="button" class="btn btn-primary cardObjective">Learning Objectives</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 h-50">
-				<div class="cards">
-					<img alt="Metagcognition" class="card-img-top" src="04-01.png">
-					<div class="card-body">
-						<h5 class="card-title">Metacognition (Self-Assessment)</h5>
-						<p class="card-text">Usually defined as thinking about your thinking, it refers to the brain's processes used to plan, monitor, and assess your understanding and performance. Metacognition includes a critical awareness of a) one's thinking and learning and b) oneself as a thinker and learner.</p>
-						<button type="button" class="btn btn-primary cardMeta">Self-Assessment</button>
-					</div>
-				</div>
-			</div>
+    <!--Introduction to the website, logo, brain science-->
+    <!-- page wrapper -->
+    <div class="container-fluid">
+        <section class="introduction">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-mail-bulk fa-5x" id="icon-mail"></i>
+                    <a class="btn btn-link mail" href="http://eepurl.com/dGXh3f" target="blank"><span id="more">Want to hear more?</span>Sign Up for Updates</a>
+                </div>
+                <div class="col-md-8 rowlogosize text-right">
+                    <img alt="Code Girl Logo" class="img-logo blurb" src="img/codegirllogo071217.png">
+                    <!-- it's better to use an h1 for search engines, to be better ranked -->
+                    <h1 class="brainscience"><span class="orange">It's all about</span><span class="blue">Brain Science!</span></h1>
+                </div>
+            </div>
+
+            <div class="row bio">
+                <div class="col-md-4"></div>
+                <div class="col-md-8 text-justify">
+                    <!--Bio-->
+                    <p> Dr. Faith H. Wallace is a former college-professor with expertise in educational psychology and language development turned Front-End Developer with an affinity for clean, classic design. Self-taught with the help of Toby Ho and FreeCodeCamp.
+                        Her expertise spans HTML5, CSS3, JavaScript jQuery, Python, Bootstrap, Firebase, React and complex problem solving with a keen attention to detail and more. Her passion is working with beginners stepping into the myriad programming
+                        resources using <button class="btn btn-link orangemodal" data-target="#brainblue" data-toggle="modal" id="Brain-Science">brain science</button> tools to be successful no matter what language, framework, or library they choose to
+                        study.
+                    </p>
+                    <p>This website is a collection of resources, classes and conversations about best practices in learning code.</p>
+                </div>
+            </div>
+            <!--Modal for Brain Science-->
+            <div aria-hidden="true" aria-labelledby="Brain-Science Definition" class="modal fade" id="brainblue" role="dialog" tabindex="-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">What does Brain Science mean?</h5><button aria-label="Close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <p id="Definition">Brain Science is a fancy way for of discussing resesarch and philosophy in educational psychology.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn button-close" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <blockquote class="tagline text-center">
+                <!--Call to action. Make it more personal-->
+                <p><em>Why make your journey to become a programmer a struggle.<br>
+                Together, we can ease the burden of learning with research-based time-tested techniques from academic research on learning as applied to learning to code.</em></p>
+            </blockquote>
+        </section>
+
+        <section class="cards">
+            <div class="allCards">
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="tile text-center">
+                            <img alt="Learning Styles" class="card-img-top" src="img/cards/ls-icon.png">
+                            <div class="card-body">
+                                <h5 class="card-title">Learning Styles</h5>
+                                <p class="card-text">Learning Styles are the brain’s preferred method of understanding and retaining new information. Everyone has a mix of different learning styles and this can vary based on the subject that you are studying. Learning styles
+                                    grow and change as you become proficient.</p>
+                                <button class="btn btn-primary cardStyles">Resources</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="tile text-center">
+                            <img alt="Brain Science Hacks" class="card-img-top" src="img/cards/2-01.png ">
+                            <div class="card-body">
+                                <h5 class="card-title">Brain Science Hacks</h5>
+                                <p class="card-text">Leveling up in programming can be downright infuriating, time consuming & expensive. Take the frustration out of the equation with these 5 basic brain science hacks that work for any topic you are tyring to learn.</p>
+                                <button class="btn btn-primary cardHack ">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="tile text-center">
+                            <img alt="Learning Objectves " class="card-img-top" src="img/cards/3-01.png">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Hierarchy of Learning Objectives</h5>
+                                <p class="card-text ">To become a programmer, you need to have experiences that force you to move through a hierarchy of learning objectives. Doing so ensures that you can progress from simply recalling coding concepts to being able to develop
+                                    your own original code. There are six objectives: Remember, Understand, Apply, Analyze, Evaluate, and Create.</p>
+                                <button class="btn btn-primary cardObjective ">Learning Objectives</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="tile text-center">
+                            <img alt="Metagcognition" class="card-img-top" src="img/cards/04-01.png">
+                            <div class="card-body">
+                                <h5 class="card-title">Metacognition (Self-Assessment)</h5>
+                                <p class="card-text">Usually defined as thinking about your thinking, it refers to the brain's processes used to plan, monitor, and assess your understanding and performance. Metacognition includes a critical awareness of a) one's thinking
+                                    and learning and b) oneself as a thinker and learner.</p>
+                                <button class="btn btn-primary cardMeta ">Self-Assessment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END OF MAIN CARDS PAGE DISPLAY 1-->
+
+        <section class="learningstyles">
+            <div class="row justify-content-center">
+                <div class="col-md-5 verballinguistic">
+                    <div class="text-center tile">
+                        <img alt="Verbal Linguistic" class="card-img-top text-center" src="img/ls1-01.png">
+                        <div class="card-body">
+                            <h3 class="styletype text-center"><strong>Verbal Linguistic</strong></h3>
+                            <p class="stylecharacteristics text-center ">Strengths are reading, writing, and speaking. Can memorize easily. <i class="fa fa-hourglass-2" aria-hidden="true"></i> Has a great love of reading and prefers to read to get information vs. looking at a video or listening
+                                to a podcast
+                            </p>
+                            <h4 class="styleresourcestitle text-left">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist">Read snippets of documentation and then apply that concept to a few lines of code. Try <a class="resourcelink" href="https://www.freecodecamp.org/" target="blank">FreeCodeCamp</a> or <a class="resourcelink" href="www.codecademy.com"
+                                        target="blank">CodeAcademy.</a> Be carefuly, these are just snippets. You aren't writing your own code.</li>
+                                <li class="resourcelist ">Find the right book! Books written for kids and teens are the most engaging with less technical terms and more practical examples. Two favorites: <a class="resourcelink" href="https://www.amazon.com/Get-Coding-Learn-JavaScript-Website/dp/076369276X/ref=sr_1_1?ie=UTF8&qid=1536852370&sr=8-1&keywords=Get+Coding
+                                            " target="blank ">Get Coding! (HTML, CSS, JS)</a> and <a class="resourcelink" href="https://www.amazon.com/Hello-World-Computer-Programming-Beginners/dp/1617290920/ref=sr_1_13?ie=UTF8&qid=1536852488&sr=8-13&keywords=Hello+World"
+                                        target="blank">Hello World (Python and Computer Science)</a></li>
+                                <li class="resourcelist ">Find the VERY best blogs and newsletters. My favorites:
+                                    <ul>
+                                        <li class="resourcelist"><a class="resourcelink" href="https://javascriptweekly.com/" target="blank">JavaScript Weekly</a></li>
+                                        <li class="resourcelist"><a class="resourcelink" href="http://superherojs.com/" target="blank">Superhero JS</a></li>
+                                        <li class="resourcelist"><a class="resourcelink" href="https://codeburst.io/" target="blank">Codeburst</a></li>
+                                        <li class="resourcelist"><a class="resourcelink" href="https://www.codeanalogies.com/#javascript" target="blank">Code Analogies</a></li>
+                                        <li class="resourcelist"><a class="resourcelink" href="https://medium.com/@faithhfrankelwallace" target="blank">Code Girl (ME!)</a></li>
+                                    </ul>
+                                </li>
+                                <li class="resourcelist "><a class="resourcelink " href="https://rafaltomal.com/design-class/ " target="blank ">Design Class.</a> A fabulous introduction to design in a newsletter format. Perfect for developers.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 auditory">
+                    <div class="text-center tile">
+                        <img alt="Auditory " class="card-img-top text-center" src="img/ls2-01.png ">
+                        <div class="card-body">
+                            <h3 class="styletype text-center"><strong>Auditory</strong></h3>
+                            <p class="stylecharacteristics text-center">Strengths include listening, linking sound with meaning. Prefer to listen to an audio book or podcast than read the exact material. Good speakers who can convey meaning through their tone and inflection. </p>
+                            <h4 class="styleresourcestitle text-left">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist">Find Podcasts that go beyond just introductory topics. Try <a class="resourcelink" href="https://syntax.fm/ " target="blank">Syntax with Wes Bos and Scott Tolinski</a> or review the list of Podcasts (by subject) at <a class="resourcelink"
+                                        href="https://simpleprogrammer.com/ultimate-list-developer-podcasts/" target="blank
+                        ">Simple Programmer.</a> If you are new to programming try <a class="resourcelink" href="https://learntocodewith.me/podcast/ " target="blank ">Learn to Code with Me</a> or <a class="resourcelink" href="https://www.codenewbie.org/podcast"
+                                        target="blank">Code Newbie</a></li>
+                                <li class="resourcelist ">Look for Video-based audio courses. These are more like lectures where the instructor explains the topics to you while visually illustrating concepts. Note that the best video-based courses also offer transcripts of the
+                                    lesson. This is for more verbal learners and for those that need to review notes. Most people are familiar with the following platforms:
+                                    <ul>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.udemy.com/ " target="blank ">Udemy</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.lynda.com/ " target="blank ">Lynda </a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://scrimba.com/ " target="blank ">Scrimba</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.pluralsight.com/ " target="blank ">Pluralsight</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.eduonix.com/ " target="blank ">Eduonix</a></li>
+                                    </ul>
+                                </li>
+                                <li class="resourcelist">There are dedicated followers to resources like FreeCodeCamp where everyday programmers provide supplemental materialis like YouTube channels where they walk through sections of a particular challenge. I really enjoy
+                                    <a class="resourcelink" href="https://www.youtube.com/channel/UCQsneWfl8r0lV3evE7W9o3Q " target="blank ">Jose Moreno's We Will Code</a>. There is something about his voice that makes the content click for me.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5 visual">
+                    <div class="text-center tile">
+                        <img alt="Visual Spatial " class="card-img-top" src="img/ls3-01-01.png ">
+                        <div class="card-body">
+                            <p class="styletype"><strong>Visual/Spatial</strong></p>
+                            <p class="stylecharacteristics">Reliance on images, pictures, media, and color. Use of graphic organizers to visually organize new information. Takes extensive color-coded notes. Creates diagrams to explain concepts. </p>
+                            <h4 class="styleresourcestitle text-left">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist ">If you want to learn to program and are highly visual spatial, start with <a class="resourcelink " href="https://scratch.mit.edu/ ">Scratch</a>. You will learn all of the logic of programming in a way that make visual sense
+                                    to you.</li>
+                                <li class="resourcelist ">My favorite application for learning JavaScript in a visual sense is <a class="resourcelink" href="https://play.google.com/store/apps/details?id=com.area120.grasshopper&hl=en_US" target="blank ">Grasshopper</a> made by
+                                    Google. There is very little verbal learning; it's all visual. You move chunks of code into slots to create a completed task that is usually animated.</li>
+                                <li class="resourcelist ">One of the best programs out there to help you visualize the computer's thought process and encourages you to actively debug on your own is <a class="resourcelink " href="http://pythontutor.com/" target="blank ">Python Tutor</a>.
+                                    Not a great name since it can be used with Python, JS, Ruby, and other languages.</li>
+                                <li class="resourcelist">Remember, I mentioned that there are dedicated followers to resources like FreeCodeCamp where everyday programmers provide supplemental materialis like YouTube channels where they walk through sections of a particular challenge.
+                                    I really enjoy <a class="resourcelink " href="https://www.youtube.com/playlist?list=PLWKjhJtqVAbk7zM11M36sGvU29hB8EDC4 " target="blank ">The Daily Programmer with Cody Seibert</a>. He teases out the concepts on a whiteboard
+                                    which allows you to naturally see relationships. </li>
+                                <li class="resourcelist ">Visual "cheatsheets " can be very powerful in helping you remember key concepts. Here a few to get you started:
+                                    <ul>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.sketchingwithcss.com/samplechapter/cheatsheet.html " target="blank ">Mastering Flexbox</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://cssreference.io/ " target="blank ">CSS Resource Guide</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://htmlcheatsheet.com/ " target="blank ">Online Interactive: HTML, CSS, JS</a></li>
+                                    </ul>
+                                </li>
+                                <li class="resourcelist ">Visually compare the differences between two files of code.<a class="resourcelink " href="https://www.diffchecker.com/ " target="blank "> Diff Checker</a>.</li>
+                                <li class="resourcelist ">Pencil Project Wireframe - FREE<a class="resourcelink " href="https://pencil.evolus.vn/ " target="blank "> Pencil Project</a>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 kinesthetic">
+                    <div class="text-center tile">
+                        <img alt="Kinesthetic " class="card-img-top text-center " src="img/ls4-01.png ">
+                        <div class="card-body">
+                            <h3 class="styletype text-center "><strong>Kinesthetic</strong></h3>
+                            <p class="stylecharacteristics text-center ">We naturally learn by doing. Learning takes pace when you transform information into a working product. Test things. Break things. Put everything back together in a new way. That's learning by doing. </p>
+                            <h4 class="styleresourcestitle text-left">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist ">You need project-based learning - that you are building something while you are learning. But be warned. If all you do is copy someone else's code, then you aren't really learning. A few of my favorite courses or projects
+                                    to learn by doing include:
+                                    <ul>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.udemy.com/build-a-responsive-website-with-html5-css3-and-bootstrap-4/ " target="blank ">Build a Responsive Website with HTML, CSS, and Bootstrap.</a> Filip does a fabulous
+                                            job of also teaching you a little about design. He also has another course where you use more JavaScript.</li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview " target="blank ">The Complete JS Course 2018</a> Skip around in this course and just build the projects, especially
+                                            the Pig Game which will force you to use ES6. </li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://watchandcode.com/p/practical-javascript " target="blank "> Build a To Do application in this Practical JavaScript</a> course from Watch and Code by Gordon Zhu.</li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://wesbos.com/react-for-beginners-re-recorded-again/ " target="blank ">React for Beginners by Wes Bos</a> The entire course is based on building one large app.</li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://wesbos.com/javascript30/ " target="blank ">JavaScript 30 Day Challenge by Wes Bos</a>Such fun! But not for a true beginner. You should have a little prior knowledge of JavaScript.
+                                        </li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.udemy.com/react-the-complete-guide-incl-redux/ " target="blank ">React 16 - The Complete Guide</a> Best React course out there. You build a fun project and are encouraged
+                                            to build smaller projects as you go through the lessons. </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5 Logical">
+                    <div class="text-center tile">
+                        <img alt="Visual Spatial " class="card-img-top text-center " src="img/ls5-01.png ">
+                        <div class="card-body">
+                            <h3 class="styletype text-center "><strong>Logical</strong></h3>
+                            <p class="stylecharacteristics text-center ">Strengths include problem-solving, simulations, and puzzles. Excellent at reasoning and finding patterns, particularly analysis of cause and effect. Logical learners understand hierarchy. Gamification appeals to logical learners.
+                            </p>
+                            <h4 class="styleresourcestitle">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist">Learn design patterns or coding patterns. For exmple, the accumulator pattern and state pattern. Take the <a class="resourcelink " href="https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc " target="blank ">Design Patterns in OOP YouTube course with Christopher Okhravi.</a></li>
+                                <li class="resourcelist ">Solve problems on platform sites where there is gamification in levels, tokens, and unlocking honors:
+
+                                    <ul>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.codewars.com/dashboard " target="blank ">Code Wars</a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://www.codingame.com/start " target="blank ">Code in Game </a></li>
+                                        <li class="resourcelist "><a class="resourcelink " href="https://codesignal.com/ " target="blank ">Code Signal</a></li>
+                                    </ul>
+                                </li>
+                                <li class="resourcelist ">Use your strengths to solve real-world problems. <a class="resourcelink " href="https://www.catchafire.org/ " target="blank">CatchaFire</a> is a great place to collaborate with volunteers from all over the world working
+                                    on socially minded (for social good organizations). Volunteers from every field, particuarly technology is needed. Similarly, get involved with <a class="resourcelink" href="https://goodienation.org/" target="blank">Goodie Nation.</a>                                    </li>
+                                <li class="resourcelist ">Learn strategis for debugging. <a class="resourcelink " href="https://www.catchafire.org/ " target="blank">Debugging School by Toby Ho</a> is fabulous. Take the guess work out of debugging and use tools like the scientific
+                                    method to debug your work.
+                                    <a class="resourcelink " href="http://debugschool.com/ " target="blank "></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 interintra">
+                    <div class="text-center tile">
+                        <img alt="Intra and Interpersonal " class="card-img-top" src="img/ls6-01.png ">
+                        <div class="card-body">
+                            <h3 class="styletype"><strong>Interpersonal & Intrapersonal</strong></h3>
+                            <p class="stylecharacteristics">Interpersonal learners thrive on the social aspects of learning and like to have a support group and mentor. Intrapersonal learners focus more on self-reflection and prefer to work alone. They analyzis their own process to
+                                see growth over time. </p>
+                            <h4 class="styleresourcestitle">Resources</h4>
+                            <ul class="text-justify">
+                                <li class="resourcelist ">If you are an interpersonal learner, join your local meet ups based on what you are learning such as Python or JavaScript. But also join groups for women or other underrepresented groups. Definitely join <a class="resourcelink"
+                                        href="https://www.codeforamerica.org/">Code for America</a> and find a local branch. Code for America works on socially minded projects with all volunteers from students to senior developers. Don't forget to see if
+                                    there is a <a class="resourcelink" href="https://www.freecodecamp.org/ ">FreeCodeCamp Study Group Chapter</a> in your area. You'll be glad you did.</li>
+                                <li class="resourcelist">An interpersonal learner might also like the challenge of working remotely with developers from all over the world through <a class="resourcelink" href="https://chingu.io/apply">Chingu Voyage Program.</a></li>
+                                <li class="resourcelist">If you are an intrapersonal learner, join a challenge that is based on your own productivity and let's you self reflect on your progress such as the <a class="resourcelink" href="https://www.100daysofcode.com/">#100DaysofCode Challenge</a>                                    and the <a class="resourcelink" href="https://www.subscribepage.com/30days30sites"> #30Days30Sites Challenge.</a> Also give yourself permission to work on an open source project. You don't have to work on team, just
+                                    find a project that has an issue and fix it for them if you can. Try <a class="resourcelink" href="https://www.codetriage.com/">Code Triage.</a> If you feel like you are struggling with motivation, try<a class="resourcelink"
+                                        href="https://www.superbetter.com/">Super Better</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block backbutton"><i class="fas fa-home"></i>Back to Homepage</button>
+        </section>
+
+        <section class="brainHack">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="text-center tile">
+                        <img class="card-img-top text-center hacks" src="./learning styles/brain Science icons/1-01.png " alt="Goal Setting ">
+                        <div class="card-body">
+                            <h1 class="goals ">Set Reasonable Goals</h1>
+                            <div class="goalsDescription">
+                                <p>Clever marketing will make you think you can learn Python in a day or JavaScript in a week. The truth is: you probably can’t, and that’s okay. If you are a beginning coder, there is a lot to learn. Sure you could memorize
+                                    vocabulary words for key concepts, but there is no getting around the fact that it takes time to process the logic of writing programs and practice to make your code work. You have to start with reasonable goals, both
+                                    short-term and long-term.
+                                </p>
+                                <p> Your short-term goals might be to work through the Introduction to jQuery section of Code Academy this week or solve two Code War challenges over the weekend. Short-term goals are incredibly important because they give
+                                    you a sense of accomplishment to motivate you to complete the long-term goals. Your long-term goal might be to complete the Front End Certificate for FreeCodeCamp in 8 months with a career goal of getting your first
+                                    developer job in a year.</p>
+                                <p>Be sure you give yourself a realistic timeframe to complete your goals. A timeframe keeps you on task, as long as it is sensible. If the Udemy course you are taking has over 40 hours of videos, an unrealistic goal is to
+                                    sit at the computer for 20 hours over two days and complete it. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center ">
+                    <div class="text-center tile">
+                        <img class="card-img-top text-center hacks " src="./learning styles/brain Science icons/2-01.png " alt="Study Skills ">
+                        <div class="card-body">
+                            <h1 class="goals">Study Skills</h1>
+                            <p class="studyDescription">There are many different types of study skills including goal setting, memory strategies, time management, and note-taking. I have found for learning to code Graphic Organizers are the best. Because Graphic Organizers are used
+                                heavily in education, you can find many different types online. A graphic organizer is a visual display that demonstrates relationships between facts, concepts or ideas. A graphic organizer guides the learner's thinking
+                                as they fill in and build upon a visual map or diagram.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="text-center tile">
+                        <img class="card-img-top text-center hacks" src="./learning styles/brain Science icons/3-01.png " alt="Resources">
+                        <div class="card-body">
+                            <h1 class="goals ">Choose the Right Resources</h1>
+                            <div class="pickyDescription">
+                                <p>The resources that are available to learn code are vast! I just looked at a blog post that referenced over 400 free courses to take in April 2018 alone! And that’s a good thing. With so much variety, you can afford to be
+                                    picky. Not every course or project is going to fit your needs, so don’t try to force yourself into it. The result will most likely be frustration and the feeling that you just don’t have what it takes.</p>
+                                <p>Always be conscious that the material in the course is presented in multiple ways so that you have a greater chance of understanding and retaining the information. This can be verbal (reading), visual (images, diagrams),
+                                    and auditory (speaking). More importantly look to see if the course you want to take has a project that you build throughout. Working on real projects builds your muscle memory for basic skills. But don’t stop there.
+                                    Once you learn how to build through your course, it’s time for you to create your own original project. That is kinesthetic learning, learning by doing.</p>
+                                <p> When you are evaluating a potential class, always look to see if there are opportunities for you to solve problems on your own. That doesn’t mean that the course doesn’t offer solutions to those problems, but there should
+                                    be opportunities for you to try out your skills. This is a self-assessment. If you aren’t able to solve these problems, you might want to go back and redo a particular section or two from the course.</p>
+                                <p>If you don’t have a way to get answers to your questions in a timely manner, you will forget what you have learned and will be demotivated to move further. I make it a priority of only choosing courses that bring the community
+                                    of students together for this purpose.This could be a FB group, Slack, Discord or other group chat applications. Also, look to see that there are benchmarks for self-assessment. While this may seem like something you
+                                    can overlook when evaluating a course, it’s actually extremely important to your mental health while learning. A sense of accomplishment does wonders for your psyche.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-5">
+                    <div class="tile text-center">
+                        <img class="card-img-top text-center hacks " src="./learning styles/brain Science icons/4-01.png " alt="Practice">
+                        <div class="card-body">
+                            <h1 class="goals ">Build Early and Often</h1>
+                            <div class="buildDescription">
+                                <p>There is really no way around it. If you want to be a developer, you have to build.</p>
+                                <p>Experts say that you need to practice a skill for over 60 days consecutively in order for it to become a habit, and it takes over 10,000 hours of practice to become an expert in something. In other words, the more you practice,
+                                    the quicker you learn. The good news is, you don’t have to be an expert. You just have to be able to build and troubleshoot at the beginning. Here’s where goal setting is important — how many hours per week or month
+                                    can you realistically set aside for building?</p>
+                                <p>Once you have some coding basics down, you will naturally become inquisitive about how to do something on a website or application. Take those inquiries and make them a reality. One night out of curiosity, I looked up how
+                                    to play audio files on a website, so I built a quick page with my top 5 list of songs to code to (here). It was a small, manageable project that used very beginner level code and took just a couple of hours to build.
+                                    That’s what is amazing about being a developer. If you can think of it, you can build it. What are you interested in besides code? Are you a dog trainer? Or a ghost hunter? Maybe a ballroom dancer? Whatever it is, you
+                                    can build something around it. You’re a developer!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="tile text-center">
+                        <img class="card-img-top text-center hacks " src="./learning styles/brain Science icons/5-01.png " alt="Get Involved">
+                        <div class="card-body">
+                            <h1 class="goals">Get Involved</h1>
+                            <div class="involvedDescription">
+                                <p>My favorite part of the Harry Potter series is that Harry is not alone. Learning magic, like code, is hard, especially when the most evil wizard of all time is trying to kill you, but Harry’s friends Ron and Hermione give
+                                    him strength and motivation, and eventually they defeat You-Know-Who. This makes sense from the theoretical perspective of social constructivism — that we construct our knowledge through interactions with others, where
+                                    each of us has strengths.</p>
+                                <p>That’s the goal of most study groups: to create a shared community of coders from various backgrounds with a variety of strengths. While everyone is generally working on their own projects, we happily help each other out
+                                    when the need arises, and members love to collaborate on projects together. If you aren’t sure how to find a study group, start with some online groups and see if there is FreeCodeCamp chapter in your area. I attend
+                                    their study groups regularly.</p>
+                                <p>Study groups are one thing. Meetups are another. My local JavaScript and Python groups have monthly meetings with guest speakers that both teach and inspire with a range of topics and projects, and the JavaScript meetings
+                                    always have food which is a plus! I also attend events sponsored by WomenWhoCode. They have great workshops, code sessions, speakers, hack-a-thons, and put on a fabulous 2-day conference in the summer, and they started
+                                    social events! Who doesn’t want to see the next big superhero movie with 50 of your tech friends?</p>
+                                <p>Join meetup.com and see what’s available in your area. Contributing to these groups is the best way to overcome imposter syndrome, the feeling that you are a fraud.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block backbutton"><i class="fas fa-home"></i>Back to Homepage</button>
+        </section>
+
     </div>
-  </div>
-	</section> <!--END OF MAIN CARDS PAGE DISPLAY 1-->
 
-	<section class="learningstyles row container-fluid">
-		<div class="row">
-			<div class="col-md-4 verballinguistic text-center">
-				<img alt="Verbal Linguistic" class="card-img-top text-center" src="ls1-01.png">
-				<p class="styletype text-center"><strong>Verbal Linguistic</strong></p>
-				<p class="stylecharacteristics text-center">Strengths are reading, writing, and speaking. Can memorize easily. <i class="fa fa-hourglass-2" aria-hidden="true"></i> Has a great love of reading and prefers to read to get information vs. looking at a video or listening to a podcast </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">Read snippets of documentation and then apply that concept to a few lines of code. Try <a class="resourcelink" href="https://www.freecodecamp.org/"
-					target="_blank">FreeCodeCamp</a> or <a class="resourcelink" href="www.codecademy.com" target="_blank">CodeAcademy.</a> Be carefuly, these are just snippets. You aren't writing your own code. </li>
-					<li class="resourcelist">Find the right book! Books written for kids and teens are the most engaging with less technical terms and more practical examples. Two favorites: <a class="resourcelink" href="https://www.amazon.com/Get-Coding-Learn-JavaScript-Website/dp/076369276X/ref=sr_1_1?ie=UTF8&qid=1536852370&sr=8-1&keywords=Get+Coding" target="_blank">Get Coding! (HTML, CSS, JS)</a> and <a class="resourcelink" href="https://www.amazon.com/Hello-World-Computer-Programming-Beginners/dp/1617290920/ref=sr_1_13?ie=UTF8&qid=1536852488&sr=8-13&keywords=Hello+World" target="_blank">Hello World (Python and Computer Science)</a></li>
-					<li class="resourcelist">Find the VERY best blogs and newsletters. My favorites:</li>
-						<ul>
-							<li class="resourcelist"><a class="resourcelink" href="https://javascriptweekly.com/" target="_blank">JavaScript Weekly</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="http://superherojs.com/" target="_blank">Superhero JS</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://codeburst.io/" target="_blank">Codeburst</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.codeanalogies.com/#javascript" target="_blank">Code Analogies</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://medium.com/@faithhfrankelwallace" target="_blank">Code Girl (ME!)</a></li>
-						</ul>
-					<li class="resourcelist"><a class="resourcelink" href="https://rafaltomal.com/design-class/" target="_blank">Design Class.</a> A fabulous introduction to design in a newsletter format. Perfect for developers.</li>
-				</ul>
-			</div>
-			<div class="col-md-4 auditory text-center">
-					<img alt="Auditory" class="card-img-top text-center" src="ls2-01.png">
-				<p class="styletype text-center"><strong>Auditory</strong></p>
-				<p class="stylecharacteristics text-center">Strengths include listening, linking sound with meaning. Prefer to listen to an audio book or podcast than read the exact material. Good speakers who can convey meaning through their tone and inflection.  </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">Find Podcasts that go beyond just introductory topics. Try <a class="resourcelink" href="https://syntax.fm/"
-					target="_blank">Syntax with Wes Bos and Scott Tolinski</a> or review the list of Podcasts (by subject) at <a class="resourcelink" href="https://simpleprogrammer.com/ultimate-list-developer-podcasts/" target="_blank">Simple Programmer.</a> If you are new to programming try <a class="resourcelink" href="https://learntocodewith.me/podcast/" target="_blank">Learn to Code with Me</a> or <a class="resourcelink" href="https://www.codenewbie.org/podcast" target="_blank">Code Newbie</a></li>
-					<li class="resourcelist">Look for Video-based audio courses. These are more like lectures where the instructor explains the topics to you while visually illustrating concepts. Note that the best video-based courses also offer transcripts of the lesson. This is for more verbal learners and for those that need to review notes. Most people are familiar with the following platforms:</a></li>
-						<ul>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.udemy.com/" target="_blank">Udemy</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.lynda.com/" target="_blank">Lynda </a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://scrimba.com/" target="_blank">Scrimba</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.pluralsight.com/" target="_blank">Pluralsight</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.eduonix.com/" target="_blank">Eduonix</a></li>
-						</ul>
-					<li class="resourcelist">There are dedicated followers to resources like FreeCodeCamp where everyday programmers provide supplemental materialis like YouTube channels where they walk through sections of a particular challenge. I really enjoy <a class="resourcelink" href="https://www.youtube.com/channel/UCQsneWfl8r0lV3evE7W9o3Q" target="_blank">Jose Moreno's We Will Code</a>. There is something about his voice that makes the content click for me.</li>
-				</ul>
-			</div>
-			<div class="col-md-4 visual text-center">
-					<img alt="Visual Spatial" class="card-img-top text-center" src="ls3-01-01.png">
-				<p class="styletype text-center"><strong>Visual/Spatial</strong></p>
-				<p class="stylecharacteristics text-center">Reliance on images, pictures, media, and color. Use of graphic organizers to visually organize new information. Takes extensive color-coded notes. Creates diagrams to explain concepts.   </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">If you want to learn to program and are highly visual spatial, start with <a class="resourcelink" href="https://scratch.mit.edu/">Scratch</a>. You will learn all of the logic of programming in a way that make visual sense to you.
-					<li class="resourcelist">My favorite application for learning JavaScript in a visual sense is <a class="resourcelink" href="https://play.google.com/store/apps/details?id=com.area120.grasshopper&hl=en_US" target="_blank">Grasshopper</a> made by Google. There is very little verbal learning; it's all visual. You move chunks of code into slots to create a completed task that is usually animated.</li>
-					<li class="resourcelist">One of the best programs out there to help you visualize the computer's thought process and encourages you to actively debug on your own is <a class="resourcelink" href="http://pythontutor.com/" target="_blank">Python Tutor</a>. Not a great name since it can be used with Python, JS, Ruby, and other languages.</li>	
-					<li class="resourcelist">Remember, I mentioned that there are dedicated followers to resources like FreeCodeCamp where everyday programmers provide supplemental materialis like YouTube channels where they walk through sections of a particular challenge. I really enjoy <a class="resourcelink" href="https://www.youtube.com/playlist?list=PLWKjhJtqVAbk7zM11M36sGvU29hB8EDC4" target="_blank">The Daily Programmer with Cody Seibert</a>. He teases out the concepts on a whiteboard which allows you to naturally see relationships. </li>
-					<li class="resourcelist">Visual "cheatsheets" can be very powerful in helping you remember key concepts. Here a few to get you started</li>
-						<ul>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.sketchingwithcss.com/samplechapter/cheatsheet.html" target="_blank">Mastering Flexbox</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://cssreference.io/" target="_blank">CSS Resource Guide</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://htmlcheatsheet.com/" target="_blank">Online Interactive: HTML, CSS, JS</a></li>
-						</ul>
-						<li class="resourcelist">Visually compare the differences between two files of code.<a class="resourcelink" href="https://www.diffchecker.com/" target="_blank"> Diff Checker</a>.</li>		
-						<li class="resourcelist">Pencil Project Wireframe - FREE<a class="resourcelink" href="https://pencil.evolus.vn/" target="_blank"> Pencil Project</a>.</li>	
-				</ul>
-			</div>
-		</div>
-	</section>
-
-	<section class="learningstyles row2 container-fluid">
-		<div class="row">
-			<div class="col-md-4 kinesthetic text-center">
-					<img alt="Kinesthetic" class="card-img-top text-center" src="ls4-01.png">
-				<p class="styletype text-center"><strong>Kinesthetic</strong></p>
-				<p class="stylecharacteristics text-center">We naturally learn by doing. Learning takes pace when you transform information into a working product. Test things. Break things. Put everything back together in a new way. That's learning by doing.  </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">You need project-based learning - that you are building something while you are learning. But be warned. If all you do is copy someone else's code, then you aren't really learning. A few of my favorite courses or projects to learn by doing include:  
-						<ul>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.udemy.com/build-a-responsive-website-with-html5-css3-and-bootstrap-4/" target="_blank">Build a Responsive Website with HTML, CSS, and Bootstrap.</a> Filip does a fabulous job of also teaching you a little about design.  He also has another course where you use more JavaScript.</li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview" target="_blank">The Complete JS Course 2018</a> Skip around in this course and just build the projects, especially the Pig Game which will force you to use ES6. </li>
-							<li class="resourcelist"><a class="resourcelink" href="https://watchandcode.com/p/practical-javascript" target="_blank"> Build a To Do application in this Practical JavaScript</a> course from Watch and Code by Gordon Zhu.</li>
-							<li class="resourcelist"><a class="resourcelink" href="https://wesbos.com/react-for-beginners-re-recorded-again/" target="_blank">React for Beginners by Wes Bos</a> The entire course is based on building one large app.</li>
-							<li class="resourcelist"><a class="resourcelink" href="https://wesbos.com/javascript30/" target="_blank">JavaScript 30 Day Challenge by Wes Bos</a>Such fun!  But not for a true beginner. You should have a little prior knowledge of JavaScript. </li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.udemy.com/react-the-complete-guide-incl-redux/" target="_blank">React 16 - The Complete Guide</a> Best React course out there. You build a fun project and are encouraged to build smaller projects as you go through the lessons.  </li>
-						</ul>
-				</ul>
-			</div>
-			<div class="col-md-4 Logical text-center">
-					<img alt="Visual Spatial" class="card-img-top text-center" src="ls5-01.png">
-				<p class="styletype text-center"><strong>Logical</strong></p>
-				<p class="stylecharacteristics text-center">Strengths include problem-solving, simulations, and puzzles. Excellent at reasoning and finding patterns, particularly analysis of cause and effect. Logical learners understand hierarchy. Gamification appeals to logical learners.  </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">Learn design patterns or coding patterns. For exmple, the accumulator pattern and state pattern. Take the <a class="resourcelink" href="https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc"
-					target="_blank">Design Patterns in OOP YouTube course with Christopher Okhravi.</a></li>
-					<li class="resourcelist">Solve problems on platform sites where there is gamification in levels, tokens, and unlocking honors:</a></li>
-						<ul>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.codewars.com/dashboard" target="_blank">Code Wars</a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://www.codingame.com/start" target="_blank">Code in Game </a></li>
-							<li class="resourcelist"><a class="resourcelink" href="https://codesignal.com/" target="_blank">Code Signal</a></li>
-						</ul>
-					<li class="resourcelist">Use your strengths to solve real-world problems. <a class="resourcelink" href="https://www.catchafire.org/" target="_blank"> CatchaFire</a> is a great place to collaborate with volunteers from all over the world working on socially minded (for social good organizations). Volunteers from every field, particuarly technology is needed. Similarly, get involved with <a class="resourcelink" href="https://goodienation.org/" target="_blank"> Goodie Nation.</a>  </li>
-					<li class="resourcelist">Learn strategis for debugging. <a class="resourcelink" href="https://www.catchafire.org/" target="_blank"> Debugging School by Toby Ho</a> is fabulous. Take the guess work out of debugging and use tools like the scientific method to debug your work.<a class="resourcelink" href="http://debugschool.com/" target="_blank"></a>  </li>
-				</ul>
-			</div>
-			<div class="col-md-4 interintra text-center">
-					<img alt="Intra and Interpersonal" class="card-img-top text-center" src="ls6-01.png">
-				<p class="styletype text-center"><strong>Interpersonal & Intrapersonal</strong></p>
-				<p class="stylecharacteristics text-center">Interpersonal learners thrive on the social aspects of learning and like to have a support group and mentor.  Intrapersonal learners focus more on self-reflection and prefer to work alone. They analyzis their own process to see growth over time.  </p>
-				<ul class="styleresourcestitle text-left">Resources
-					<li class="resourcelist">If you are an interpersonal learner, join your local meet ups based on what you are learning such as Python or JavaScript. But also join groups for women or other underrepresented groups. Definitely join <a class="resourcelink" href="https://www.codeforamerica.org/">Code for America</a> and find a local branch. Code for America works on socially minded projects with all volunteers from students to senior developers. Don't forget to see if there is a <a class="resourcelink" href="https://www.freecodecamp.org/">FreeCodeCamp Study Group Chapter</a> in your area. You'll be glad you did.
-					<li class="resourcelist">An interpersonal learner might also like the challenge of working remotely with developers from all over the world through <a class="resourcelink" href="https://chingu.io/apply">Chingu Voyage Program. </a></li>
-					<li class="resourcelist">If you are an intrapersonal learner, join a challenge that is based on your own productivity and let's you self reflect on your progress such as the <a class="resourcelink" href="https://www.100daysofcode.com/"> #100DaysofCode Challenge</a> and the <a class="resourcelink" href="https://www.subscribepage.com/30days30sites"> #30Days30Sites Challenge.</a> Also give yourself permission to work on an open source project. You don't have to work on team, just find a project that has an issue and fix it for them if you can. Try <a class="resourcelink" href="https://www.codetriage.com/">Code Triage.</a> If you feel like you are struggling with motivation, try <a class="resourcelink" href="https://www.superbetter.com/"> Super Better</a>  
-			</div>
-			<button type="button" class="btn btn-primary btn-lg btn-block backbutton">Back to Homepage</button>
-		</div>
-	</section>
-
-	<section class="brainHack container-fluid">
-		<div class="row">
-			<div class="col-md-4 text-center">
-					<img alt="Brain Hacks" class="card-img-top text-center hacks" src="./learning styles/brain Science icons/1-01.png" alt="Goal Setting">
-				<h1 class="goals">Set Reasonable Goals</h1>
-				<p class="goalsDescription">Clever marketing will make you think you can learn Python in a 		day or JavaScript in a week. The truth is: you probably can’t, and that’s okay. If you 			are a beginning coder, there is a lot to learn. Sure you could memorize vocabulary words 		for key concepts, but there is no getting around the fact that it takes time to process 		the logic of writing programs and practice to make your code work. You have to start with 	reasonable goals, both short-term and long-term.<br><br>
-					Your short-term goals might be to work through the Introduction to jQuery section of Code Academy this week or solve two Code War challenges over the weekend. Short-term goals are incredibly important because they give you a sense of accomplishment to motivate you to complete the long-term goals. Your long-term goal might be to complete the Front End Certificate for FreeCodeCamp in 8 months with a career goal of getting your first developer job in a year.<br><br>
-					Be sure you give yourself a realistic timeframe to complete your goals. A timeframe keeps you on task, as long as it is sensible. If the Udemy course you are taking has over 40 hours of videos, an unrealistic goal is to sit at the computer for 20 hours over two days and complete it.
-					/p>
-			</div>
-			<div class="col-md-4 text-center">
-					<img alt="Brain Hacks" class="card-img-top text-center hacks" src="./learning styles/brain Science icons/2-01.png" alt="Study Skills">
-				<h1 class="goals">Study Skills</h1>
-				<p class="studyDescription">There are many different types of study skills including goal setting, memory strategies, time management, and note-taking. I have found for learning to code Graphic Organizers are the best. Because Graphic Organizers are used heavily in education, you can find many different types online. A graphic organizer is a visual display that demonstrates relationships between facts, concepts or ideas. A graphic organizer guides the learner's thinking as they fill in and build upon a visual map or diagram. 
-				</p>
-			</div>
-			<div class="col-md-4 text-center">
-					<img alt="Brain Hacks" class="card-img-top text-center hacks" src="./learning styles/brain Science icons/3-01.png" alt="Resources">
-				<h1 class="goals">Choose the Right Resources</h1>
-				<p class="pickyDescription">The resources that are available to learn code are vast!
-					I just looked at a blog post that referenced over 400 free courses to take in April 2018 alone! And that’s a good thing. With so much variety, you can afford to be picky. Not every course or project is going to fit your needs, so don’t try to force yourself into it. The result will most likely be frustration and the feeling that you just don’t have what it takes.<br><br>
-					Always be conscious that the material in the course is presented in multiple ways so that you have a greater chance of understanding and retaining the information. This can be verbal (reading), visual (images, diagrams), and auditory (speaking). More importantly look to see if the course you want to take has a project that you build throughout. Working on real projects builds your muscle memory for basic skills. But don’t stop there. Once you learn how to build through your course, it’s time for you to create your own original project. That is kinesthetic learning, learning by doing. <br><br>
-					When you are evaluating a potential class, always look to see if there are opportunities for you to solve problems on your own. That doesn’t mean that the course doesn’t offer solutions to those problems, but there should be opportunities for you to try out your skills. This is a self-assessment. If you aren’t able to solve these problems, you might want to go back and redo a particular section or two from the course.<br><br>
-					If you don’t have a way to get answers to your questions in a timely manner, you will forget what you have learned and will be demotivated to move further. I make it a priority of only choosing courses that bring the community of students together for this purpose.This could be a FB group, Slack, Discord or other group chat applications. 
-					Also, look to see that there are benchmarks for self-assessment. While this may seem like something you can overlook when evaluating a course, it’s actually extremely important to your mental health while learning. A sense of accomplishment does wonders for your psyche. 
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-4 text-center">
-					<img alt="Brain Hacks" class="card-img-top text-center hacks" src="./learning styles/brain Science icons/4-01.png" alt="Practice">
-				<h1 class="goals">Build Early and Often</h1>
-				<p class="buildDescription">There is really no way around it. If you want to be a developer, you have to build.<br><br>Experts say that you need to practice a skill for over 60 days consecutively in order for it to become a habit, and it takes over 10,000 hours of practice to become an expert in something. In other words, the more you practice, the quicker you learn. The good news is, you don’t have to be an expert. You just have to be able to build and troubleshoot at the beginning. Here’s where goal setting is important — how many hours per week or month can you realistically set aside for building?<br><br>
-				Once you have some coding basics down, you will naturally become inquisitive about how to do something on a website or application. Take those inquiries and make them a reality. One night out of curiosity, I looked up how to play audio files on a website, so I built a quick page with my top 5 list of songs to code to (here). It was a small, manageable project that used very beginner level code and took just a couple of hours to build. That’s what is amazing about being a developer. If you can think of it, you can build it. What are you interested in besides code? Are you a dog trainer? Or a ghost hunter? Maybe a ballroom dancer? Whatever it is, you can build something around it. You’re a developer!
-
-			</div>
-			<div class="col-md-4 text-center">
-					<img alt="Brain Hacks" class="card-img-top text-center hacks" src="./learning styles/brain Science icons/5-01.png" alt="Get Involved">
-				<h1 class="goals">Get Involved</h1>
-					<p class="involvedDescription">My favorite part of the Harry Potter series is that Harry is 	not alone. Learning magic, like code, is hard, especially when the most evil wizard of all time is trying to kill you, but Harry’s friends Ron and Hermione give him strength and motivation, and eventually they defeat You-Know-Who. This makes sense from the theoretical perspective of social constructivism — that we construct our knowledge through interactions with others, where each of us has strengths.<br><br>
-					That’s the goal of most study groups: to create a shared community of coders from various backgrounds with a variety of strengths. While everyone is generally working on their own projects, we happily help each other out when the need arises, and members love to collaborate on projects together. If you aren’t sure how to find a study group, start with some online groups and see if there is FreeCodeCamp chapter in your area. I attend their study groups regularly.<br><br>
-					Study groups are one thing. Meetups are another. My local JavaScript and Python groups have monthly meetings with guest speakers that both teach and inspire with a range of topics and projects, and the JavaScript meetings always have food which is a plus! I also attend events sponsored by WomenWhoCode. They have great workshops, code sessions, speakers, hack-a-thons, and put on a fabulous 2-day conference in the summer, and they started social events! Who doesn’t want to see the next big superhero movie with 50 of your tech friends?<br><br>
-					Join meetup.com and see what’s available in your area. Contributing to these groups is the best way to overcome imposter syndrome, the feeling that you are a fraud.
-					</p>
-			</div>
-		</div>
-		<button type="button" class="btn btn-primary btn-lg btn-block backbutton">Back to Homepage</button>
-	</section>
-
-		<script src="jquery.js"></script>
-    <script src="main.js"></script>
+    <script src="js/jquery.js "></script>
+    <script src="js/main.js "></script>
 </body>
+
 </html>
